@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { AsksForPermission } from '../../services/NotificationPermission';
 
 const ButtonShape = styled.button`
     background-color: #007acc;
@@ -16,7 +17,11 @@ const ButtonShape = styled.button`
 `;
 
 const AllowButton = ({ buttonText }) => {
-    return <ButtonShape>{buttonText}</ButtonShape>;
+  const handleButtonClick = async () => {
+    await AsksForPermission(); 
   };
+
+  return <ButtonShape onClick={handleButtonClick}>{buttonText}</ButtonShape>;
+};
 
 export default AllowButton;
