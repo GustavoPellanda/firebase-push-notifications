@@ -1,12 +1,12 @@
 import { initializeApp } from 'firebase/app';
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyAzhz1dbTgVY643pd4RTpn7i75RFSSwsqQ",
+  authDomain: "fir-push-notifications-7fe2d.firebaseapp.com",
+  projectId: "fir-push-notifications-7fe2d",
+  storageBucket: "fir-push-notifications-7fe2d.appspot.com",
+  messagingSenderId: "605977833285",
+  appId: "1:605977833285:web:31eb4b97b426f91e0b982c"
 };
 
 export const StartsFirebase = () => {
