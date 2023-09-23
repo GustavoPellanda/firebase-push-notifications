@@ -1,5 +1,7 @@
 import { getMessaging } from 'firebase/messaging';
 
+// Asks permission from the user to send notifications
+
 export const AsksForPermission = async () => {
   try {
     const messaging = getMessaging();
