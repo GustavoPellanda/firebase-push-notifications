@@ -4,7 +4,7 @@
 
 <h2>Explicação</h2>
 
-<p>As configurações necessárias para a inicialização do Firebase estão em Firebase.js, que exporta a função StartsFirebase. Essa função é chamada o index.js.</p>
+<p>As configurações necessárias para a inicialização do Firebase estão em Firebase.js, que exporta a função StartsFirebase. A chamada dessa função está no index.js.</p>
 
 <p>O componente AllowButton, quando clicado, executa a função AsksForPermission, definida em NotificationPermission.js. Ela é responsável por requisitar permissão do usuário para exibir notificações.</p>
 
