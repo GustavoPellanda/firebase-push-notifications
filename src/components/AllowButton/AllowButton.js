@@ -17,8 +17,8 @@ const ButtonShape = styled.button`
 `;
 
 const AllowButton = ({ buttonText }) => {
-  const handleButtonClick = async () => {
-    await AsksForPermission(); 
+  const handleButtonClick = () => {
+    AsksForPermission(); 
   };
 
   return <ButtonShape onClick={handleButtonClick}>{buttonText}</ButtonShape>;
