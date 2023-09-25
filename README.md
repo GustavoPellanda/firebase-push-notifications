@@ -14,7 +14,7 @@
 
 {
   "notification": {
-    "title": "Blix Alicativos",
+    "title": "Blix Aplicativos",
     "body": "Confira o Instagram da Blix!",
     "click_action": "https://www.instagram.com/blix.aplicativos/"
   },
