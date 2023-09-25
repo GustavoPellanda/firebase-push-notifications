@@ -7,7 +7,7 @@ const messaging = StartsFirebase();
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('/firebase-messaging-sw.js')
+    .register('./firebase/firebase-messaging-sw.js')
     .then((registration) => {
       messaging.useServiceWorker(registration);
       console.log('Service Worker registered with Firebase Messaging.');
